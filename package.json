@@ -1,0 +1,22 @@
+{
+  "name": "renamefileextensions",
+  "version": "1.0.0",
+  "description": "Rename file extensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "bin": {
+    "extEditor": "./index.js"
+  },
+  "author": "Zachary Bowhay",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "columnify": "^1.5.4",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.1",
+    "shelljs": "^0.8.3"
+  }
+}
